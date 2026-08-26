@@ -450,6 +450,8 @@ View
 
 Dessa forma, cada camada recebe somente as dependências necessárias para cumprir sua responsabilidade.
 
+Ou seja, ViewModel é como se fosse o mediador entre a View e o Repository. Repare que: View nunca acessa diretamente Repository, e vice-versa.
+
 ---
 
 ## Separação por funcionalidades
